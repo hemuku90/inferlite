@@ -63,14 +63,6 @@ python serve.py bench --bench-prefix-tokens 0       # no shared prefix at all
 CUDA_VISIBLE_DEVICES=1 python serve.py bench        # pick a GPU
 ```
 
-Example result (`Qwen/Qwen3-8B`, default settings):
-
-| Setup                       | Wall time (s) | Requests/s |
-| --------------------------- | ------------- | ---------- |
-| HF static                   | 191.72        | 0.52       |
-| inferlite (no prefix cache) | 29.21         | 3.42       |
-| inferlite (prefix cache)    | 23.93         | 4.18       |
-
 ### Inference server
 
 ```bash
