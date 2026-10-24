@@ -1,6 +1,4 @@
 """
-inferlite: a small vLLM-style inference engine in one file.
-
 This is a simpler implementation of Paged KV Cache with prefix caching,
 continuous batching with chunked prefill, FlashAttention (or a pure torch reference),
 CUDA graphs for decoding and an OpenAI-compatible HTTP Server
